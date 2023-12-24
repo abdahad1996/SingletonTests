@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A959D82B37E9B300860B5C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A959D72B37E9B300860B5C /* LoginViewController.swift */; };
 		54D3A1722B291F65000E12B4 /* SingletonTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D3A1712B291F65000E12B4 /* SingletonTestsApp.swift */; };
 		54D3A1742B291F65000E12B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D3A1732B291F65000E12B4 /* ContentView.swift */; };
 		54D3A1762B291F66000E12B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D3A1752B291F66000E12B4 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54A959D72B37E9B300860B5C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		54D3A16E2B291F65000E12B4 /* SingletonTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D3A1712B291F65000E12B4 /* SingletonTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTestsApp.swift; sourceTree = "<group>"; };
 		54D3A1732B291F65000E12B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				54D3A1752B291F66000E12B4 /* Assets.xcassets */,
 				54D3A1772B291F66000E12B4 /* SingletonTests.entitlements */,
 				54D3A1782B291F66000E12B4 /* Preview Content */,
+				54A959D72B37E9B300860B5C /* LoginViewController.swift */,
 			);
 			path = SingletonTests;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A959D82B37E9B300860B5C /* LoginViewController.swift in Sources */,
 				54D3A1742B291F65000E12B4 /* ContentView.swift in Sources */,
 				54D3A1722B291F65000E12B4 /* SingletonTestsApp.swift in Sources */,
 			);

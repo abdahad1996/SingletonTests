@@ -7,18 +7,28 @@
 
 import SwiftUI
 
+// SwiftUI wrapper for the UIViewController
+struct UIViewControllerWrapper: UIViewControllerRepresentable {
+    func updateUIViewController(_ uiViewController: LoginVC, context: Context) {
+        
+    }
+    
+    typealias UIViewControllerType = LoginVC
+
+    func makeUIViewController(context: Context) -> LoginVC {
+        return LoginVC()
+    }
+
+    
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            UIViewControllerWrapper()
         }
         .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+ 
